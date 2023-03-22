@@ -2,12 +2,12 @@
 
 # Tugas Pemograman Web 2
 ## Profil
-| #               | My Data           |
-| --------------- | ----------------- |
+| #               | My Data               |
+| --------------- | -----------------     |
 | **Nama**        | Muhamad Suryanegara   |
-| **NIM**         | 312110447        |
-| **Kelas**       | TI.21.A.1         |
-| **Mata Kuliah** | Pemrograman Web 2 |
+| **NIM**         | 312110447             |
+| **Kelas**       | TI.21.A.1             |
+| **Mata Kuliah** | Pemrograman Web 2     |
 
 # Persiapan
 Untuk memulai membuat kode php, perlu disiapkan web server dan interpreter PHP terlebih dahulu. Web server yang kita gunakan adalah Apache2 dan interpreter PHP 8. Untuk memudahkan proses praktikum, kita gunakan aplikasi bundle web server yaitu XAMPP.
@@ -24,8 +24,7 @@ Untuk memulai membuat kode php, perlu disiapkan web server dan interpreter PHP t
 4. Buka XAMPP Control Panel.
 5. Lalu klik Start pada Apache dan MySQL.
 
-![XAMPP PANEL]![Xampp](https://user-images.githubusercontent.com/92637117/226505296-73da3514-f19a-48ae-ac48-bb8e1df6ff94.png)
-
+![XAMPP PANEL]![xampp](https://user-images.githubusercontent.com/92678339/226928668-28716082-672d-4160-9d2e-853dee736a2f.png)
 
 
 
@@ -34,13 +33,11 @@ Untuk memulai membuat kode php, perlu disiapkan web server dan interpreter PHP t
 ## Memulai PHP
 <p>Buat folder `Lab2Web` pada root direktori web server (C:\xampp\htdocs)
 
-![Buat Folder]![image](https://user-images.githubusercontent.com/92637117/226503440-577c67da-bf3a-4ac0-a620-f90b3a38cb6f.png)
-
+![Buat Folder]![folder2](https://user-images.githubusercontent.com/92678339/226928837-ed4d21dd-5584-4974-a832-fecd6bbcde92.png)
 
 <p>Kemudian untuk mengakses direktori tersebut pada web server dengan mengakses URL: http://localhost/Lab2Web/
 
-![Lab2Web]![labweb2](https://user-images.githubusercontent.com/92637117/226502316-31980444-c02e-43a7-97aa-058537b53a5a.png)
-
+![Lab2Web]![index](https://user-images.githubusercontent.com/92678339/226929011-63ccbb54-e1c8-4722-a5ed-a3aab708e672.png)
 
 ## PHP Dasar
 <p>Buat file baru dengan nama php_dasar.php pada directory tersebut. Kemudian buat kode seperti berikut.
@@ -65,8 +62,7 @@ Untuk memulai membuat kode php, perlu disiapkan web server dan interpreter PHP t
 
 <p>Kemudian untuk mengakses hasilnya melalui URL: http://localhost/Lab2Web/php_dasar.php
 
-![PHP DASAR]![phpdasar](https://user-images.githubusercontent.com/92637117/226502370-bc41c1bf-3735-4123-b366-d069f223163e.png)
-
+![PHP DASAR]![hello](https://user-images.githubusercontent.com/92678339/226929194-ff2ed5d1-4e20-4f6b-b1e0-e13287a64ebd.png)
 
 ## Variable PHP
 <p>Menambahkan variable pada program.
@@ -81,8 +77,7 @@ echo "Nama : $nama";
 ?>
 ```
 
-![Variable PHP]![phpdasarvariable](https://user-images.githubusercontent.com/92637117/226502551-1ff052e6-155b-43d0-9221-b73c022b164d.png)
-
+![Variable PHP]![variable2](https://user-images.githubusercontent.com/92678339/226929442-5968e9c5-97df-4663-b4f4-a2ae1d478619.png)
 
 ## Predefine Variable $_GET
 <p>Buat file `latihan2.php` dalam direktori Lab2Web. lalu masukan kode berikut.
@@ -97,8 +92,7 @@ echo "Selamat Datang " . $_GET['nama'];
 
 <p>Untuk mengaksesnya gunakan URL: http://localhost/Lab2Web/latihan2.php?nama=farhan 
 
-![Predefine Variable]![predefine](https://user-images.githubusercontent.com/92637117/226502587-20c0f728-0895-40ba-8b03-a24d69671ec2.png)
-
+![Predefine Variable]![variable](https://user-images.githubusercontent.com/92678339/226929577-888ca6ae-02be-48f0-9025-b34c17746a8b.png)
 
 ## Membuat Form Input
 - Buat file `latihan3.php` didalam direktori Lab2Web, Kemudian tambahkan kode berikut.
@@ -129,8 +123,7 @@ echo "Selamat Datang " . $_GET['nama'];
 - Lalu inputkan sesuatu dalam kolom form tersebut, kemudian klik Kirim.
 - Maka, hasilnya akan seperti berikut:
 
-![Form Input]![forminput](https://user-images.githubusercontent.com/92637117/226502636-e771d399-4605-4c55-af2b-58c59aa17f2d.png)
-
+![Form Input]![input](https://user-images.githubusercontent.com/92678339/226929757-22cac020-b2fd-4da9-86ce-ce342bf40953.png)
 
 ## Operator
 - Masukan kode berikut.
@@ -145,8 +138,7 @@ echo "Gaji yang dibawa pulang = Rp. $thp";
 
 - Maka, hasilnya akan seperti berikut.
 
-![Operator]![operator](https://user-images.githubusercontent.com/92637117/226502948-9698c45d-46fa-4adf-8742-6d2aed386e16.png)
-
+![Operator]![gaji](https://user-images.githubusercontent.com/92678339/226930089-1c85899c-049c-4234-a647-f5537451433c.png)
 
 ## Kondisi IF
 - Masukan kode berikut.
@@ -164,10 +156,7 @@ echo "Selasa";
 
 - Maka, hasilnya akan seperti berikut.
 
-![Kondisi IF]![image](https://user-images.githubusercontent.com/92637117/226504000-08c49306-8b09-4e8e-84fc-496318ca4769.png)
-
-
-
+![Kondisi IF]![selasa](https://user-images.githubusercontent.com/92678339/226930367-3c7e3c30-c201-4852-adca-11574b7b2bfe.png)
 ## Kondisi Switch
 - Masukan kode berikut.
 
@@ -190,8 +179,7 @@ echo "Sabtu";
 
 - Maka, hasilnya akan seperti berikut.
 
-![Kondisi Switch]![image](https://user-images.githubusercontent.com/92637117/226503293-492c6e57-cbbb-4722-9cd6-c06535666175.png)
-
+![Kondisi Switch]![sabtu](https://user-images.githubusercontent.com/92678339/226930328-d1e65f9f-e406-4040-8937-5333d3de020e.png)
 
 ## Perulangan FOR
 - Masukan kode berikut.
@@ -209,8 +197,7 @@ echo "Perulangan ke: " . $i . '<br />';
 
 - Maka, hasilnya akan seperti berikut.
 
-![Perulangan For]![image](https://user-images.githubusercontent.com/92637117/226503775-699af2de-7674-4b20-b403-065dee8d4ea7.png)
-
+![Perulangan For]![perulangan](https://user-images.githubusercontent.com/92678339/226930516-b64c87f8-274f-48c1-8774-11a85e2a0bb6.png)
 
 ## Perulangan While
 - Masukan kode berikut.
@@ -226,8 +213,7 @@ $i++;
 
 - Maka, hasilnya akan seperti berikut.
 
-![Perulangan While]![image](https://user-images.githubusercontent.com/92637117/226503704-96910a8a-1254-4650-8ee8-c05f583a4769.png)
-
+![Perulangan While]![perulangan2](https://user-images.githubusercontent.com/92678339/226930618-1154059b-9463-4f25-aba1-68ba2bf810fe.png)
 
 ## Perulangan Do While
 - Masukan kode berikut.
@@ -442,14 +428,12 @@ span {
 
 - Maka, hasilnya akan seperti berikut.
 
-![Praktikum1]![praktikum](https://user-images.githubusercontent.com/92637117/226505732-4d288751-0067-4835-b63e-3ecf752e1cde.png)
-
+![Praktikum1]![datadiri](https://user-images.githubusercontent.com/92678339/226930824-44ec2c77-aa91-45d3-a688-5194b02e8459.png)
 
 
 - Sesudah diinputkan.
 
-![Praktikum2]![pratikum_output](https://user-images.githubusercontent.com/92637117/226504751-932f3b6c-6ecb-4acc-865b-0ac23a0c9e43.png)
-
+![Praktikum2]![datadiri2](https://user-images.githubusercontent.com/92678339/226930900-10f631c5-79a3-4ffe-bcb4-7c7a8340a5a1.png)
 
 
 
