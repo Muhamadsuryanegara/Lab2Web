@@ -4,8 +4,8 @@
 ## Profil
 | #               | My Data           |
 | --------------- | ----------------- |
-| **Nama**        | Muhammad Farhan   |
-| **NIM**         | 312110128         |
+| **Nama**        | Muhamad Suryanegara   |
+| **NIM**         | 312110447        |
 | **Kelas**       | TI.21.A.1         |
 | **Mata Kuliah** | Pemrograman Web 2 |
 
@@ -75,8 +75,8 @@ Untuk memulai membuat kode php, perlu disiapkan web server dan interpreter PHP t
 ```html
 <h2>Menggunakan Variable</h2>
 <?php
-$nim = "312110128";
-$nama = "Muhammad Farhan";
+$nim = "312110447";
+$nama = "Muhamad Suryanegara";
 echo "NIM : " . $nim . "<br>";
 echo "Nama : $nama";
 ?>
