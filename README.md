@@ -17,9 +17,8 @@ Untuk memulai membuat kode php, perlu disiapkan web server dan interpreter PHP t
 2. Kemudian buka installer XAMPP nya, setelah itu next - next saja hingga selesai.
 3. Secara default XAMPP itu akan disimpan dalam Local Disk (C:)
 
-![Install XAMPP]![image](https://user-images.githubusercontent.com/92637117/226502099-455df9af-0479-4160-a8dc-0d10b0b52528.png)
+![Install XAMPP]![folder](https://user-images.githubusercontent.com/92678339/226803624-e69095d1-ff0e-4e6d-b3d7-74a9b048f7f0.png)
 
-)
 
 
 4. Buka XAMPP Control Panel.
